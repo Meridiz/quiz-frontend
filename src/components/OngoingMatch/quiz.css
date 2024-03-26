@@ -1,0 +1,221 @@
+div {
+  box-sizing: border-box;
+}
+
+.ongoing-container {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 20px 20px;
+  height: auto;
+  margin: auto;
+  width: 100%;
+}
+
+.ongoing-title {
+  background-color: #6d6ee6;
+  border-radius: 20px 20px 0 0;
+  border: 6px yellow solid;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  margin: auto;
+}
+
+.question {
+  align-items: center;
+  background-color: #6d6ee6;
+  color: white;
+  display: flex;
+  font-size: 24px;
+  justify-content: center;
+  margin-bottom: 10px;
+  max-height: 30%;
+  min-height: 10%;
+  padding: 10px;
+}
+
+.results {
+  background-color: #fff;
+  height: 300px;
+  text-align: center;
+}
+
+.congratulations {
+  background-color: #0094da;
+  color: #fff;
+  font-size: 36px;
+  padding: 20px;
+}
+
+.results-info {
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.answer {
+  background: yellow;
+  border-radius: 10px;
+  border: 6px solid #6d6ee6;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin: 18px auto 2%;
+  max-height: 20vh;
+  max-width: 90%;
+  min-width: 48%;
+  padding-right: 1%;
+  position: relative;
+  text-align: center;
+}
+
+.answers {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50%;
+  justify-content: space-between;
+  margin: auto;
+  text-align: center;
+}
+
+.answer-letter {
+  align-items: center;
+  background-color: #6d6ee6;
+  border-radius: 25%;
+  color: #fff;
+  display: flex;
+  font-size: 2.5vh;
+  justify-content: center;
+  left: -5px;
+  position: absolute;
+  top: -30px;
+  width: 8vw;
+  z-index: 100;
+}
+
+.answer-text {
+  font-size: 1.8rem;
+  font-family: 'Share Tech Mono', monospace;
+  margin: auto;
+  z-index: 200;
+}
+
+.answer-text {
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+div .correct-answer {
+  background-color: #1ea55b;
+  color: #fff;
+}
+
+.selected-answer .answer-letter {
+  background: purple;
+}
+
+.wrong-answer .answer-letter {
+  background: #dc0a0a;
+}
+
+.next-button {
+  background: #0b0e21;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 14px 75px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 300px;
+}
+
+.score {
+  align-items: center;
+  background: #fff;
+  color: 000;
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  height: 40px;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.disabled-answer {
+  pointer-events: none;
+}
+
+.avatar {
+  align-items: flex-end;
+  background-position: center;
+  background-size: 30px 30px;
+  border-radius: 50%;
+  border: 3px solid yellow;
+  bottom: -22px;
+  color: #fff;
+  display: flex;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+  z-index: 100;
+}
+
+.player1 {
+  background-image: url('../../assets/player-1.png');
+  right: -4px;
+  z-index: 204;
+  border-color: rgb(0,254,254);
+}
+
+.player2 {
+  background-image: url('../../assets/player-2.png');
+  right: -14px;
+  z-index: 203;
+  border-color: #1CFE3E;
+}
+
+.player3 {
+  background-image: url('../../assets/player-3.png');
+  right: -24px;
+  z-index: 202;
+  border-color: #FE00E7;
+}
+
+.player0 {
+  background-image: url('../../assets/player-4.png');
+  right: 4px;
+  z-index: 200;
+  border-color: #F4FE00;
+}
+
+@media only screen and (max-width: 400px) {
+  .ongoing-title {
+    font-size: 16px;
+  }
+}
+
+.time-remaining-container {
+  background-color: yellow;
+  border-radius: 10px;
+  border: 6px solid #6d6ee6;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1rem;
+  margin: 20px auto 10px;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 60vw;
+}
+
+.round-control-text {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: auto;
+}

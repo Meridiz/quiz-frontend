@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap');
+
+.progress {
+  background-color: gray;
+  border-radius: 10px;
+  height: 30px;
+  margin: 15px 2% 15px 0;
+  position: relative;
+  width: 500px;
+}
+
+.progress-done {
+  align-items: center;
+  background: linear-gradient(to left, #70f2f2, #9e4fe7);
+  border-radius: 10px;
+  box-shadow: 0 3px 3px -5px #8533ac, 0 2px 5px #f2709c;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  height: 100%;
+  justify-content: center;
+  opacity: 0;
+  transition: 10s ease 0.3s;
+  width: 0;
+}

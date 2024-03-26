@@ -1,0 +1,14 @@
+.leaderboard-container {
+    background-color: yellow;
+    border-radius: 20px;
+    border: 6px solid #6D6EE6;
+    display: block;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    height: auto;
+    margin: 2% auto;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    width: 80%;
+}

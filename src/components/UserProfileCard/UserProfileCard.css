@@ -1,0 +1,20 @@
+.userProfileCard {
+    background-color: yellow;
+    border-radius: 20px;
+    border: 6px solid #6D6EE6;
+    display: block;
+    font-family: 'Share Tech Mono', monospace;
+    margin: auto;
+    max-width: 18rem;
+    padding: 10px;
+    position: relative;
+}
+
+.userProfileCard h3 {
+    font-weight: bold;
+}
+
+td {
+    font-style: italic;
+    font-weight: bold;
+}

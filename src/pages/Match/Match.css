@@ -1,0 +1,42 @@
+.match-container {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    margin: auto;   
+    padding: 3%;
+    width: auto;
+}
+
+.username-header {
+    background-color: #6D6EE6;
+    border-radius: 20px 20px 0 0;
+    border: 6px yellow solid;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    margin: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.players-container {
+    background-color: yellow;
+    border-radius: 0 0 20px 20px;
+    border: #6D6EE6 solid 6px;
+    height: auto;
+}
+
+.players-lobby {
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.player-list {
+    list-style: none;
+}
+
+@media only screen and (max-width: 400px) {
+    .username-header {
+        font-size: 16px;
+    }
+}

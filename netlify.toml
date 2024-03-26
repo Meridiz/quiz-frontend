@@ -1,0 +1,28 @@
+[[headers]]
+    # Define which paths this specific [[headers]] block will cover.
+    for = "/*"
+
+    [headers.values]
+        Access-Control-Allow-Origin = "*"
+
+[build]
+    command = "CI= npm run build"
+    publish = "/build"
+
+[[redirects]]
+    from = "/api/*"
+    to = "/.netlify/functions"
+    status = 200
+
+[[redirects]]
+    from = "/*"
+    to = "/index.html"
+    status = 200
+
+[dev]
+    command = "npm run start"
+    port = 8888
+    targetPort = 3000
+    publish = "/build" 
+    autoLaunch = true
+    framework = "create-react-app"

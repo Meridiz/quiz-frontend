@@ -1,0 +1,19 @@
+.rules-container {
+    background-color: yellow;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    height: auto;
+    margin: 2% auto;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+}
+
+.ul {
+    display: block;
+    margin: auto;
+    text-align: justify;
+}

@@ -1,0 +1,72 @@
+.lobby-container {
+    background-color: yellow;
+    border: #6D6EE6 solid 6px;
+    min-width: 100%;
+}
+
+.lobby-hoster, .lobby-room {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.back-btn {
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: none;
+    color: yellow;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.lobby-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+.form-label {
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.form-select {
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+.start-btn {
+    background-color: blueviolet;
+    border-radius: 10px;
+    border: none;
+    color: yellow;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.start-btn:hover, .back-btn:hover {
+    background-color: lime;
+    color: black;
+}
+
+@media only screen and (max-width: 400px) {
+    .lobby-hoster, .lobby-room {
+        font-family: 'Share Tech Mono', monospace;
+        font-size: 16px;
+    }
+}
